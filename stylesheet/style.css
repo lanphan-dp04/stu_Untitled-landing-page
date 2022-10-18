@@ -78,4 +78,51 @@ header .header-wrapper .joinUs .joinUs-link {
   background-color: #19161B;
 }
 
+.btn-primary {
+  width: 164px;
+  height: 48px;
+  display: flex;
+  justify-content: baseline;
+  align-items: center;
+  background-color: #FFB577;
+  border-radius: 0%;
+}
+
+.section-banner {
+  padding: 95px 0;
+}
+.section-banner .banner-content {
+  padding: 50px 32px 50px 0;
+}
+.section-banner .banner-content .banner-title {
+  font-family: "Playfair Display";
+  font-size: 50px;
+  line-height: 68px;
+}
+.section-banner .banner-content .banner-desc {
+  color: #B8B8B8;
+  padding-bottom: 12px;
+}
+.section-banner .banner-content .banner-link {
+  padding: 16px 20px;
+  color: #2E2D33;
+}
+.section-banner .banner-content .banner-next-page {
+  padding-right: 8px;
+}
+.section-banner .banner-content .info-list {
+  padding-top: 40px;
+  padding-left: unset;
+}
+.section-banner .banner-content .info-list .info-title {
+  font-family: "Playfair Display";
+  color: #FFFFFF;
+  font-size: 20px;
+  line-height: 30px;
+  margin-bottom: unset;
+}
+.section-banner .banner-content .info-list .info-desc {
+  opacity: 0.6;
+}
+
 /*# sourceMappingURL=style.css.map */
