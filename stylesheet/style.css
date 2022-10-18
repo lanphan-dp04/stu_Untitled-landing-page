@@ -1,0 +1,81 @@
+.text-regular {
+  font-weight: 400;
+}
+
+.text-medium {
+  font-weight: 500;
+}
+
+.text-bold {
+  font-weight: 700;
+}
+
+body {
+  font-family: "Poppins", serif;
+  font-size: 16px;
+  line-height: 28px;
+  color: #FFFFFF;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul, li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+svg {
+  display: block;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+header {
+  height: 80px;
+}
+header .header-wrapper {
+  padding: 18px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header .header-wrapper .header-left {
+  display: flex;
+  align-items: center;
+}
+header .header-wrapper .header-left .logo {
+  padding-right: 10px;
+}
+header .header-wrapper .header-left .nav-list {
+  display: flex;
+  align-items: center;
+  padding-top: 10px;
+}
+header .header-wrapper .header-left .nav-list .nav-item {
+  padding: 0 20px;
+}
+header .header-wrapper .joinUs {
+  display: flex;
+  align-items: center;
+}
+header .header-wrapper .joinUs .joinUs-link {
+  padding-right: 11px;
+  color: #FFB577;
+}
+
+.bg-dark {
+  background-color: #19161B;
+}
+
+/*# sourceMappingURL=style.css.map */
