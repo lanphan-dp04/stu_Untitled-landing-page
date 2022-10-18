@@ -1,0 +1,60 @@
+.section-about {
+  position: relative;
+  .about-header-wrapper {
+    @include flex-items-center;
+    .about-title {
+      color: $primary-color;
+      font-family: 'Playfair Display';
+      font-size: 16px;
+      line-height: 24px;
+      padding-right: 16px;
+      margin-bottom: unset;
+    }  
+  }
+  .about-content {
+    
+    .about-content-title {
+      padding: 32px 0;
+      font-family: 'Playfair Display';
+      font-size: 44px;
+      line-height: 58px
+    }
+    .about-content-desc {
+      color: $gray-color;
+      padding-bottom: 10px;
+    }
+    .about-content-list {
+      padding: 32px 0;
+      .about-content-item {
+        color: $gray-color;
+     
+        .item-about-header {
+          color: $gray-color;
+          @include flex-items-center;
+          .item-about-image {
+            padding-right: 7px;
+          }
+          .item-about-desc {
+            color: $light-blue-color;
+            font-size: 24px;
+            line-height: 36px
+          }
+        }
+        
+        .item-about-title {
+          font-size: 16px;
+          line-height: 28px;
+          padding-bottom: 15px;
+        }
+      }
+    }
+  }
+  .about-image-left {
+    padding-left: 35px;
+    margin-top: 80px;
+  }
+  .about-image-right {
+    padding-left: 35px;
+    margin-top: -15px;
+  }
+}
