@@ -1,0 +1,31 @@
+.section-service {
+  //  padding-top: 160px;
+  .service-header-wrapper {
+    @include flex-items-center;
+    padding-bottom: 16px;
+  }
+  .service-content-list {
+    padding-bottom: 65px;
+    .service-content-desc {
+      color: $gray-color;
+      padding: 15px 0 0 25px;
+    }
+  }
+  .service-list {
+    background-color: $primary-background;
+    .service-item {
+      padding: 64px;
+      border-right: 1px solid $black-color;
+      .service-image-wrapper {
+        padding-bottom: 12px;
+      }
+      .service-item-title  {
+        font-family: 'Playfair Display';
+        padding: 12px 0;
+      }
+      .service-item-desc {
+        color: $gray-color;
+      }
+    }
+  }
+}

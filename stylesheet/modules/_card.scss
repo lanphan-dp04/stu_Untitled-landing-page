@@ -1,0 +1,39 @@
+.card-product {
+  .product-content {
+    background-color: $linght-black-color;
+    padding: 24px 32px;
+    @include flex-content-between;
+    .product-name {
+      font-family: "Playfair Display";
+      font-size: 20px;
+      line-height: 30px;
+      opacity: 0.87;
+    }
+    .product-price {
+      font-size: 20px;
+      line-height: 32px;
+    }
+  }
+}
+.card-blog {
+  background-color: $linght-black-color;
+  .card-blog-content {
+    padding: 32px 12px 32px 32px;
+    .card-blog-date {
+      font-size: 14px;
+      line-height: 24px;
+      color: #b8b8b8;
+    }
+    .card-blog-title {
+      font-family: 'Playfair Display';
+      padding-bottom: 16px;
+      font-size: 29px;
+      line-height: 48px;
+      opacity: 0.87;
+    }
+    .card-blog-desc {
+      padding-bottom: 32px;
+      color: $gray-color;
+    }
+  }
+}

@@ -1,0 +1,28 @@
+.section-review {
+  background-color: $linght-black-color;
+  .review-item-content {
+    padding: 80px 45px 0 160px;
+    .image-review-wrapper {
+      padding-bottom: 43px;
+    }
+    .review-item-desc {
+      font-family: "Playfair Display";
+      padding-bottom: 72px;
+      font-style: normal;
+      font-size: 32px;
+      line-height: 48px;
+      opacity: 0.87;
+    }
+    .review-user {
+      @include flex-content-between;
+      .user-name {
+        opacity: 0.87;
+      }
+      .user-address {
+        font-size: 12px;
+        line-height: 16px;
+        opacity: 0.6
+      }
+    }
+  }
+}

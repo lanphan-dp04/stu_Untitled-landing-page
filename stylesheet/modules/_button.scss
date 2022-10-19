@@ -1,0 +1,12 @@
+.btn-primary {
+  width: 164px;
+  height: 48px;
+  display: flex;
+  justify-content: baseline;
+  align-items: center;
+  background-color: $primary-color;
+  border-radius: 0%;
+  padding-right: 8px;
+  color: $black-color;
+  padding: 16px 20px;
+}

@@ -1,0 +1,33 @@
+.section-banner {
+  padding: 95px 0;
+  .banner-wrapper  {
+    margin-left: unset;
+  }
+  .banner-content {
+    padding: 50px 32px 50px 0;
+    .banner-title {
+      font-family: 'Playfair Display';
+      font-size: 50px;
+      line-height: 68px;
+    }
+    .banner-desc {
+      color: $gray-color;
+      padding-bottom: 12px;
+    }
+    .info-list {
+      padding-top: 40px;
+      padding-left: unset;
+      .info-title {
+        font-family: 'Playfair Display';
+        color: #FFFFFF;
+        font-size: 20px;
+        line-height: 30px;
+        margin-bottom: unset;
+      }
+      .info-desc {
+        opacity: 0.6
+      }
+    }
+
+  }
+}
