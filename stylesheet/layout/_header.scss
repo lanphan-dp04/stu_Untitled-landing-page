@@ -1,13 +1,22 @@
 header {
   height: 80px;
+  left: 0;
+  max-width: 100%;
+  overflow: visible;
+  position: fixed !important;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+  background-color: #19161B;
+  margin-bottom: 0px;
   .header-wrapper {
     padding: 18px 0;
     @include flex-content-between;
     .header-left {
       @include flex-items-center;
       .logo-wrapper {
-        margin-left: -25px;
-        padding-right: 10px;
+        padding-top: 15px;
+        padding-right: 30px;
       }
       .nav-list {
         @include flex-items-center;

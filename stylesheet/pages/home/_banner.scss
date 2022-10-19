@@ -1,5 +1,8 @@
 .section-banner {
   padding: 95px 0;
+  .banner-wrapper  {
+    margin-left: unset;
+  }
   .banner-content {
     padding: 50px 32px 50px 0;
     .banner-title {

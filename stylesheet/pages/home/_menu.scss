@@ -1,0 +1,31 @@
+.section-menu {
+  padding: 160px 0;
+  .menu-header-wrapper {
+    @include flex-items-center;
+    padding-bottom: 24px;
+  }
+  .menu-content-list {
+    padding-bottom: 83px;
+    .menu-content-title {
+      width: 80%;
+      padding-bottom: 32px;
+    }
+    .menu-content-desc {
+      color: $gray-color;
+      padding-top: 15px;
+      padding-left: 25px;
+    }
+    .menu-collection {
+      font-family: 'Playfair Display';
+      color: $light-blue-color;
+      font-size: 14px;
+      line-height: 21px;
+    }
+  }
+  .product-item {
+    padding-bottom: 32px;
+  }
+  .menu-link-wrapper {
+    @include flex-center;
+  }
+}

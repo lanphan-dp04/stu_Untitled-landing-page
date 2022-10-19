@@ -53,6 +53,15 @@ h2, h3, h4, h5, h6 {
 
 header {
   height: 80px;
+  left: 0;
+  max-width: 100%;
+  overflow: visible;
+  position: fixed !important;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+  background-color: #19161B;
+  margin-bottom: 0px;
 }
 header .header-wrapper {
   padding: 18px 0;
@@ -65,8 +74,8 @@ header .header-wrapper .header-left {
   align-items: center;
 }
 header .header-wrapper .header-left .logo-wrapper {
-  margin-left: -25px;
-  padding-right: 10px;
+  padding-top: 15px;
+  padding-right: 30px;
 }
 header .header-wrapper .header-left .nav-list {
   display: flex;
@@ -83,6 +92,47 @@ header .header-wrapper .joinUs {
 header .header-wrapper .joinUs .joinUs-link {
   padding-right: 11px;
   color: #FFB577;
+}
+
+footer .footer-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+footer .logo-wrapper {
+  padding-bottom: 48px;
+}
+footer .footer-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+footer .footer-list .footer-item {
+  padding: 0 20px;
+}
+footer .footer-bottom-list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+footer .footer-bottom-list .copy-rights {
+  color: #B8B8B8;
+}
+footer .footer-bottom-list .social-list {
+  margin-right: 100px;
+  display: flex;
+  align-items: center;
+}
+footer .footer-bottom-list .social-list .social-item {
+  padding: 0 12px;
+}
+footer .footer-bottom-list .contact-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+footer .footer-bottom-list .contact-wrapper .contact-link {
+  padding-right: 9px;
 }
 
 .bg-dark {
@@ -102,8 +152,70 @@ header .header-wrapper .joinUs .joinUs-link {
   padding: 16px 20px;
 }
 
+.common-content-title {
+  font-family: "Playfair Display";
+  font-size: 44px;
+  line-height: 58px;
+}
+
+.common-title {
+  font-family: "Playfair Display";
+  color: #FFB577;
+  padding-right: 16px;
+  font-size: 16px;
+  line-height: 28px;
+}
+
+.next-page {
+  padding-right: 9px;
+}
+
+.card-product .product-content {
+  background-color: #1F1D21;
+  padding: 24px 32px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.card-product .product-content .product-name {
+  font-family: "Playfair Display";
+  font-size: 20px;
+  line-height: 30px;
+  opacity: 0.87;
+}
+.card-product .product-content .product-price {
+  font-size: 20px;
+  line-height: 32px;
+}
+
+.card-blog {
+  background-color: #1F1D21;
+}
+.card-blog .card-blog-content {
+  padding: 32px 12px 32px 32px;
+}
+.card-blog .card-blog-content .card-blog-date {
+  font-size: 14px;
+  line-height: 24px;
+  color: #b8b8b8;
+}
+.card-blog .card-blog-content .card-blog-title {
+  font-family: "Playfair Display";
+  padding-bottom: 16px;
+  font-size: 29px;
+  line-height: 48px;
+  opacity: 0.87;
+}
+.card-blog .card-blog-content .card-blog-desc {
+  padding-bottom: 32px;
+  color: #B8B8B8;
+}
+
 .section-banner {
   padding: 95px 0;
+}
+.section-banner .banner-wrapper {
+  margin-left: unset;
 }
 .section-banner .banner-content {
   padding: 50px 32px 50px 0;
@@ -134,6 +246,7 @@ header .header-wrapper .joinUs .joinUs-link {
 
 .section-about {
   position: relative;
+  padding-bottom: 160px;
 }
 .section-about .about-header-wrapper {
   display: flex;
@@ -149,9 +262,6 @@ header .header-wrapper .joinUs .joinUs-link {
 }
 .section-about .about-content .about-content-title {
   padding: 32px 0;
-  font-family: "Playfair Display";
-  font-size: 44px;
-  line-height: 58px;
 }
 .section-about .about-content .about-content-desc {
   color: #B8B8B8;
@@ -188,6 +298,136 @@ header .header-wrapper .joinUs .joinUs-link {
 .section-about .about-image-right {
   padding-left: 35px;
   margin-top: -15px;
+}
+
+.section-service .service-header-wrapper {
+  display: flex;
+  align-items: center;
+  padding-bottom: 16px;
+}
+.section-service .service-content-list {
+  padding-bottom: 65px;
+}
+.section-service .service-content-list .service-content-desc {
+  color: #B8B8B8;
+  padding: 15px 0 0 25px;
+}
+.section-service .service-list {
+  background-color: #19161B;
+}
+.section-service .service-list .service-item {
+  padding: 64px;
+  border-right: 1px solid #2E2D33;
+}
+.section-service .service-list .service-item .service-image-wrapper {
+  padding-bottom: 12px;
+}
+.section-service .service-list .service-item .service-item-title {
+  font-family: "Playfair Display";
+  padding: 12px 0;
+}
+.section-service .service-list .service-item .service-item-desc {
+  color: #B8B8B8;
+}
+
+.section-menu {
+  padding: 160px 0;
+}
+.section-menu .menu-header-wrapper {
+  display: flex;
+  align-items: center;
+  padding-bottom: 24px;
+}
+.section-menu .menu-content-list {
+  padding-bottom: 83px;
+}
+.section-menu .menu-content-list .menu-content-title {
+  width: 80%;
+  padding-bottom: 32px;
+}
+.section-menu .menu-content-list .menu-content-desc {
+  color: #B8B8B8;
+  padding-top: 15px;
+  padding-left: 25px;
+}
+.section-menu .menu-content-list .menu-collection {
+  font-family: "Playfair Display";
+  color: #C4E4EA;
+  font-size: 14px;
+  line-height: 21px;
+}
+.section-menu .product-item {
+  padding-bottom: 32px;
+}
+.section-menu .menu-link-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.section-review {
+  background-color: #1F1D21;
+}
+.section-review .review-item-content {
+  padding: 80px 45px 0 160px;
+}
+.section-review .review-item-content .image-review-wrapper {
+  padding-bottom: 43px;
+}
+.section-review .review-item-content .review-item-desc {
+  font-family: "Playfair Display";
+  padding-bottom: 72px;
+  font-style: normal;
+  font-size: 32px;
+  line-height: 48px;
+  opacity: 0.87;
+}
+.section-review .review-item-content .review-user {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.section-review .review-item-content .review-user .user-name {
+  opacity: 0.87;
+}
+.section-review .review-item-content .review-user .user-address {
+  font-size: 12px;
+  line-height: 16px;
+  opacity: 0.6;
+}
+
+.section-blog {
+  padding: 165px 0;
+}
+.section-blog .blog-title {
+  padding-bottom: 64px;
+}
+
+.section-company {
+  padding-bottom: 160px;
+}
+.section-company .company-list {
+  background-color: #1F1D21;
+}
+.section-company .company-list .company-map {
+  padding: unset;
+}
+.section-company .company-info-list {
+  padding: 80px 65px 0 65px;
+}
+.section-company .company-info-list .company-info-item {
+  padding-bottom: 32px;
+}
+.section-company .company-info-list .company-info-title {
+  font-family: "Playfair Display";
+  font-size: 20px;
+  line-height: 30px;
+  padding-bottom: 6px;
+}
+.section-company .company-info-list .company-info-content {
+  font-size: 16px;
+  width: 90%;
+  color: #B8B8B8;
 }
 
 /*# sourceMappingURL=style.css.map */
