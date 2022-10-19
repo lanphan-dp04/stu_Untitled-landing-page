@@ -27,9 +27,6 @@ footer {
     }
     .contact-wrapper {
       @include flex-center;
-      .contact-link {
-        padding-right: 9px;
-      }
     }
   }
 }

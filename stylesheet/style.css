@@ -40,6 +40,7 @@ a {
 
 svg {
   display: block;
+  max-width: 100%;
 }
 
 img {
@@ -49,6 +50,10 @@ img {
 
 h2, h3, h4, h5, h6 {
   margin-bottom: unset;
+}
+
+.row {
+  margin-right: unset;
 }
 
 header {
@@ -130,9 +135,6 @@ footer .footer-bottom-list .contact-wrapper {
   display: flex;
   justify-content: center;
   align-items: center;
-}
-footer .footer-bottom-list .contact-wrapper .contact-link {
-  padding-right: 9px;
 }
 
 .bg-dark {
